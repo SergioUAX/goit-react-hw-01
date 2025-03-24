@@ -1,0 +1,90 @@
+* {
+    --color1: #000;
+    --color2: #747474;
+}
+
+.profileMain {
+    display: flex;    
+    flex-direction: column;    
+    margin: 0 auto;
+    border: 2px solid var(--color1);
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color1);
+    overflow: hidden;    
+    width: 300px;
+    background-color: #fff;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profileInfo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #353535;
+    padding: 0;
+    border: none;
+}
+
+.profileInfo p {
+    margin: 5px 0;
+}
+
+.profileInfo p:first-of-type {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.profileInfo p:nth-of-type(2) {
+    color: var(--color2);
+    font-size: 16px;
+}
+
+.profileInfo p:last-of-type {
+    color: var(--color2);
+    font-size: 16px;
+}
+
+.profileStatsList {
+    display: flex;
+    width: 100%;
+    border-top: 2px solid var(--color2);
+    margin-top: 10px;
+    padding: 0;
+}
+
+.profileStatsList li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+    padding: 10px 0;
+    background-color: #cfcfcf;
+    border-right: 2px solid var(--color2);
+    font-size: 14px;
+    list-style: none;
+}
+
+.profileStatsList li:last-child {
+    border-right: none;
+}
+
+.profileStatsList li span:first-child {    
+    font-size: 14px;
+}
+
+.profileStatsList li span:last-child {
+    font-size: 18px;
+    font-weight: 700;
+}

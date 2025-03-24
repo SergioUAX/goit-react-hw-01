@@ -1,0 +1,24 @@
+.friendListItemInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.friendListItemInfo img {
+    margin-bottom: 10px;
+}
+
+.friendListItemInfo p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
